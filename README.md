@@ -1,6 +1,16 @@
-# ClassSync — Product Launch Video & Motion Graphics
+# ClassSync — Product Launch & Desktop App
 
-An automated, high-energy product launch video and presentation showcase for **ClassSync**, built with **Remotion**, **React**, and **TypeScript**.
+An automated, high-energy product launch video, motion graphics demo, and standalone portable desktop application for **ClassSync**, built with **Remotion**, **React**, and **TypeScript**.
+
+---
+
+## 💾 Download Desktop Application
+
+[![Download ClassSync v1.0.0](https://img.shields.io/badge/Download-ClassSync.exe%20(v1.0.0)-2ea44f?style=for-the-badge&logo=windows)](https://github.com/falabio/ClassSync-Product-Launch/releases/download/v1.0.0/ClassSync.exe)
+
+> 🚀 **Direct Download**: [**ClassSync.exe (Windows, 37.6 MB)**](https://github.com/falabio/ClassSync-Product-Launch/releases/download/v1.0.0/ClassSync.exe)
+> - **Portable & Offline**: No installation or administrative privileges required.
+> - **Privacy-First**: Student roster and grade data remain 100% local on device.
 
 ---
 
@@ -19,14 +29,14 @@ https://github.com/user-attachments/assets/322d7d1f-1ffa-4198-ba11-22b65f8a2e1a
 
 ## 🛠️ Tech Stack
 
-- **Framework**: React & TypeScript
-- **Video Engine**: [Remotion](https://www.remotion.dev/)
+- **Desktop App**: Standalone Portable Windows Executable
+- **Frontend / Motion Engine**: React & TypeScript with [Remotion](https://www.remotion.dev/)
 - **Audio & Visual Processing**: Programmatic composition pipeline, Web Audio APIs
 - **Automation**: Automated screen capture and data visualization pipelines
 
 ---
 
-## 🚀 Quickstart
+## 🚀 Development & Video Render
 
 ### 1. Install Dependencies
 ```bash
