@@ -6,7 +6,9 @@ An automated, high-energy product launch video and presentation showcase for **C
 
 ## 🎬 Main Video Showcase
 
-The primary launch video is **`ClassSync_Video.mp4`** (Full HD 1080p @ 30fps), showcasing:
+The primary launch video is **`
+https://github.com/user-attachments/assets/322d7d1f-1ffa-4198-ba11-22b65f8a2e1a
+`** (Full HD 1080p @ 30fps), showcasing:
 - **Smart Attendance & Live Grading**: Real-time student metrics and automated attendance tracking.
 - **Dynamic UI Interactions**: High-fidelity dashboard workflows and live classroom synchronizations.
 - **Audio-Visual Sync**: Synchronized motion graphics, typography kinetic transitions, and spring physics.
