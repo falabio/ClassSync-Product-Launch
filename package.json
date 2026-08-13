@@ -1,9 +1,12 @@
 {
-  "name": "remotion-project",
+  "name": "classsync-product-launch",
   "version": "1.0.0",
-  "description": "My Remotion video",
-  "repository": {},
-  "license": "UNLICENSED",
+  "description": "Dynamic product launch video & motion graphics suite for ClassSync",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falabio/ClassSync-Product-Launch.git"
+  },
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.484",
@@ -28,7 +31,7 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
-    "upgrade": "remotion upgrade",
+    "render": "remotion render ClassSync45sLaunch out/ClassSync_Video.mp4",
     "lint": "eslint src && tsc"
   },
   "sideEffects": [
