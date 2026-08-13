@@ -1,17 +1,15 @@
 # ClassSync — Product Launch Video & Motion Graphics
 
-An automated, high-energy product launch video and dynamic motion graphics demo suite for **ClassSync**, built with **Remotion**, **React**, and **TypeScript**.
+An automated, high-energy product launch video and presentation showcase for **ClassSync**, built with **Remotion**, **React**, and **TypeScript**.
 
 ---
 
-## 🎬 Project Highlights
+## 🎬 Main Video Showcase
 
-- **Dynamic Motion Engine**: Programmatic keyframe animations, typography kinetic transitions, and spring physics built purely in React with Remotion.
-- **Automated Tour Pipeline**: Headless browser automation scripts that capture live UI states and render high-fidelity video reels.
-- **Modular Compositions**:
-  - `ClassSync45sLaunch`: High-tempo, 45-second launch commercial with sound synchronization.
-  - `ClassSyncProHype`: Feature breakdown showcase covering core platform workflows.
-  - `ClassSyncSocialHype`: Social media ready vertical/square teaser cuts.
+The primary launch video is **`ClassSync_Video.mp4`** (Full HD 1080p @ 30fps), showcasing:
+- **Smart Attendance & Live Grading**: Real-time student metrics and automated attendance tracking.
+- **Dynamic UI Interactions**: High-fidelity dashboard workflows and live classroom synchronizations.
+- **Audio-Visual Sync**: Synchronized motion graphics, typography kinetic transitions, and spring physics.
 
 ---
 
@@ -19,8 +17,8 @@ An automated, high-energy product launch video and dynamic motion graphics demo 
 
 - **Framework**: React & TypeScript
 - **Video Engine**: [Remotion](https://www.remotion.dev/)
-- **Audio & Media Processing**: Web Audio APIs, dynamic media compositor
-- **Automation**: Playwright / Node automation capture scripts
+- **Audio & Visual Processing**: Programmatic composition pipeline, Web Audio APIs
+- **Automation**: Automated screen capture and data visualization pipelines
 
 ---
 
@@ -35,11 +33,11 @@ npm install
 ```bash
 npm run dev
 ```
-This opens the local player in your browser where you can inspect individual scenes, scrub frames, and test transitions.
+This opens the local player in your browser where you can inspect scenes, scrub frames, and customize animations.
 
-### 3. Render MP4 Launch Video
+### 3. Render the Video
 ```bash
-npx remotion render ClassSync45sLaunch out/launch_video.mp4
+npx remotion render ClassSync45sLaunch out/ClassSync_Video.mp4
 ```
 
 ---
@@ -48,14 +46,12 @@ npx remotion render ClassSync45sLaunch out/launch_video.mp4
 
 ```
 ├── public/                 # Soundtrack, sound effects, and UI screen assets
-├── extracted_slides/       # Extracted visual presentation layers
+├── extracted_slides/       # Visual presentation layers
 ├── src/
 │   ├── Root.tsx            # Composition definitions & Remotion registration
-│   ├── ClassSync45sLaunch.tsx # 45-second main launch composition
-│   ├── ClassSyncProHype.tsx   # Detailed product demo composition
-│   └── ClassSyncSocialHype.tsx# Social teaser reel composition
+│   └── ClassSync45sLaunch.tsx # Master launch video composition
 ├── record_app.js           # Automated UI capture script
-└── student_scores.csv      # Sample dataset for live grade analytics animations
+└── student_scores.csv      # Sample dataset for live grade analytics
 ```
 
 ---
