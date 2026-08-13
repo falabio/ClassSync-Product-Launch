@@ -1,54 +1,64 @@
-# Remotion video
+# ClassSync — Product Launch Video & Motion Graphics
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+An automated, high-energy product launch video and dynamic motion graphics demo suite for **ClassSync**, built with **Remotion**, **React**, and **TypeScript**.
 
-Welcome to your Remotion project!
+---
 
-## Commands
+## 🎬 Project Highlights
 
-**Install Dependencies**
+- **Dynamic Motion Engine**: Programmatic keyframe animations, typography kinetic transitions, and spring physics built purely in React with Remotion.
+- **Automated Tour Pipeline**: Headless browser automation scripts that capture live UI states and render high-fidelity video reels.
+- **Modular Compositions**:
+  - `ClassSync45sLaunch`: High-tempo, 45-second launch commercial with sound synchronization.
+  - `ClassSyncProHype`: Feature breakdown showcase covering core platform workflows.
+  - `ClassSyncSocialHype`: Social media ready vertical/square teaser cuts.
 
-```console
-npm i
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: React & TypeScript
+- **Video Engine**: [Remotion](https://www.remotion.dev/)
+- **Audio & Media Processing**: Web Audio APIs, dynamic media compositor
+- **Automation**: Playwright / Node automation capture scripts
+
+---
+
+## 🚀 Quickstart
+
+### 1. Install Dependencies
+```bash
+npm install
 ```
 
-**Start Preview**
-
-```console
+### 2. Open Remotion Studio (Interactive Preview)
+```bash
 npm run dev
 ```
+This opens the local player in your browser where you can inspect individual scenes, scrub frames, and test transitions.
 
-**Render video**
-
-```console
-npx remotion render
+### 3. Render MP4 Launch Video
+```bash
+npx remotion render ClassSync45sLaunch out/launch_video.mp4
 ```
 
-**Upgrade Remotion**
+---
 
-```console
-npx remotion upgrade
+## 📁 Repository Structure
+
+```
+├── public/                 # Soundtrack, sound effects, and UI screen assets
+├── extracted_slides/       # Extracted visual presentation layers
+├── src/
+│   ├── Root.tsx            # Composition definitions & Remotion registration
+│   ├── ClassSync45sLaunch.tsx # 45-second main launch composition
+│   ├── ClassSyncProHype.tsx   # Detailed product demo composition
+│   └── ClassSyncSocialHype.tsx# Social teaser reel composition
+├── record_app.js           # Automated UI capture script
+└── student_scores.csv      # Sample dataset for live grade analytics animations
 ```
 
-## Docs
+---
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+## 📄 License
+This project is for demonstration and product launch purposes.
