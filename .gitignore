@@ -3,5 +3,6 @@ dist
 .DS_Store
 .env
 
-# Ignore the output video from Git but not videos you import into src/.
+# Ignore large raw recordings and render outputs
 out
+public/dashboard_raw.mp4
