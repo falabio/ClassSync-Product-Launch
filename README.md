@@ -4,9 +4,13 @@ An automated, high-energy product launch video and presentation showcase for **C
 
 ---
 
-## 🎬 Main Video Showcase
+## 🎬 Watch the Launch Video
 
-The primary launch video is **`ClassSync_Video.mp4`** (Full HD 1080p @ 30fps), showcasing:
+https://github.com/user-attachments/assets/ClassSync_Video.mp4
+
+> 💡 *Click play above to watch the full 1080p 60fps automated product launch video.*
+
+### Video Highlights:
 - **Smart Attendance & Live Grading**: Real-time student metrics and automated attendance tracking.
 - **Dynamic UI Interactions**: High-fidelity dashboard workflows and live classroom synchronizations.
 - **Audio-Visual Sync**: Synchronized motion graphics, typography kinetic transitions, and spring physics.
@@ -45,7 +49,7 @@ npx remotion render ClassSync45sLaunch out/ClassSync_Video.mp4
 ## 📁 Repository Structure
 
 ```
-├── public/                 # Soundtrack, sound effects, and UI screen assets
+├── public/                 # Soundtrack, sound effects, and UI screen assets (includes ClassSync_Video.mp4)
 ├── extracted_slides/       # Visual presentation layers
 ├── src/
 │   ├── Root.tsx            # Composition definitions & Remotion registration
